@@ -47,6 +47,9 @@ switch (codigo){
     case 5:
     printf ("5 | pão com ovo |R$  5,00");
     break;
+    
+     default:
+    printf("Iválido!!");
 }
     return 0;
 
