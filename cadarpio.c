@@ -13,11 +13,11 @@ int codigo;
 
 printf ("------------------MENU--------------------\n");
 printf ("\n");
-printf ("1 | Picanha        \n   |R$ 25,00");
-printf ("2 | Lasanha        \n   |R$ 20,00");
-printf ("3 | strgonoff        \n |R$ 18,00");
-printf ("4 | Bife acebolado    \n|R$ 55,00");
-printf ("5 | pão com ovo      \n |R$  5,00");
+printf ("1 | Picanha          |R$ 25,00\n");
+printf ("2 | Lasanha          |R$ 20,00\n");
+printf ("3 | strgonoff        |R$ 18,00\n");
+printf ("4 | Bife acebolado   |R$ 55,00\n");
+printf ("5 | pão com ovo      |R$  5,00\n");
 printf ("\n");
 printf ("----------------------FIM-------------------\n");
 printf ("\n");
@@ -29,23 +29,23 @@ system("cls || clear");
 switch (codigo){
 
     case 1 :
-    printf ("codigo 1");
+    printf ("1 | Picanha |R$ 25,00");
     break;
 
     case 2 :
-    printf ("codigo 2");
+    printf ("2 | Lasanha |R$ 20,00");
     break;
 
     case 3 :
-    printf ("codigo 3");
+    printf ("3 | strgonof |R$ 18,00");
     break;
 
     case 4 :
-    printf ("codigo 4");
+    printf ("4 | Bife acebolado |R$ 55,00");
     break;
 
     case 5:
-    printf ("codigo 5");
+    printf ("5 | pão com ovo |R$  5,00");
     break;
 }
     return 0;
